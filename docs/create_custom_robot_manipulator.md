@@ -84,30 +84,38 @@ In Fusion360, create a new sketch, and in Fusion360,
     ![base_link](/png/png/6.png)
 
      -Extrude it on 300 mm
+     
     ![base_link](/png/png/7.png)
 
      -Create the sketch on a right side of this triangle
+
     ![base_link](/png/png/8.png)
 
     -Draw the circle with diameter 140 mm. 
+
     ![base_link](/png/png/9.png)
 
     -Extrude this circle till it reach to the next rectangle. 
+
     ![base_link](/png/png/10.png)
 
     Select this circle and choose the construct. In this construct select tangent plane
+
     ![base_link](/png/png/11.png)
 
     In this construct select tangent plane
     ![base_link](/png/png/12.png)
 
     When you selected this assembler. You can see a new plane which we gonna rotate to suitable degree. Rotate it to -45 degree
+
     ![base_link](/png/png/13.png)
 
     Select this plane and create a new sketch
+
     ![base_link](/png/png/14.png)
 
     Create the new rectangle 100x180
+
     ![base_link](/png/png/15.png)
 
     Extrude it on 600 mm
