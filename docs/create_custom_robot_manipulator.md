@@ -73,44 +73,64 @@ In Fusion360, create a new sketch, and in Fusion360,
 
     - Select this model and right click on it. Create the component from this body and name it base_link
     ![base_link](/png/png/4.png)
+
     - Select on the top of this rectangle and create a new sketch. On this new sketch create new rectangel with dimension 245 x 30 as shown in this picture.
     ![base_link](/png/png/5.png)
+
      - Make same way in the left side.
     ![base_link](/png/png/6.png)
+
      -Extrude it on 300 mm
     ![base_link](/png/png/7.png)
+
      -Create the sketch on a right side of this triangle
     ![base_link](/png/png/8.png)
+
     -Draw the circle with diameter 140 mm. 
     ![base_link](/png/png/9.png)
+
     -Extrude this circle till it reach to the next rectangle. 
     ![base_link](/png/png/10.png)
+
     Select this circle and choose the assembler. In this assembler select tangent plane
     ![base_link](/png/png/11.png)
+
     In this assembler select tangent plane
     ![base_link](/png/png/12.png)
+
     When you selected this assembler. You can see a new plane which we gonna rotate to suitable degree. Rotate it to -45 degree
     ![base_link](/png/png/13.png)
+
     Select this plane and create a new sketch
     ![base_link](/png/png/14.png)
+
     Create the new rectangle 100x180
     ![base_link](/png/png/15.png)
+
     Extrude it on 600 mm
     ![base_link](/png/png/16.png)
+
     Select the top of this rectangle and create new sketch
     ![base_link](/png/png/17.png)
+
     Create on this sketch new rectangle 17x80 mm
     ![base_link](/png/png/18.png)
+
     Make a same way on left side of rectangle
     ![base_link](/png\png/19.png)
+
     Extrude it on 100 mm
     ![base_link](/png/png/20.png)
+
     Make sure that your rectangle combined with your cylinder to make dependencies.
     ![base_link](/png/png/21.png)
+
     Extrude to 20 mm
     ![base_link](/png/png/22.png)
+
     Let's create a new joint. Create a new sketch
     ![base_link](/png/png/23.png)
+    
 2. ### Create Axles for wheel joints:
 
     - On the side face of the chassis, create a new sketch.
