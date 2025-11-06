@@ -122,11 +122,11 @@ In Fusion360, create a new sketch, and in Fusion360,
 
     Make a same way on left side of rectangle
 
-    ![base_link](/png\png/19.png)
+    ![robot](/png/png/19.png)
 
     Extrude it on 100 mm
 
-    ![base_link](/png/png/20.png)
+    ![extrusion](/png/png/20.png)
 
     Make sure that your rectangle combined with your cylinder to make dependencies.
 
