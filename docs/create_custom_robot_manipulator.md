@@ -63,7 +63,7 @@ In Fusion360, create a new sketch, and in Fusion360,
     - Start by creating a new sketch on the XY plane.
 
     - Select a rectangle on a workspace.
-    
+
     ![sketch](/png/png/1.png)
 
     - Draw a rectangle on a XY plane with dimension 300 x 300
@@ -107,6 +107,7 @@ In Fusion360, create a new sketch, and in Fusion360,
     ![base_link](/png/png/11.png)
 
     In this construct select tangent plane
+    
     ![base_link](/png/png/12.png)
 
     When you selected this assembler. You can see a new plane which we gonna rotate to suitable degree. Rotate it to -45 degree
