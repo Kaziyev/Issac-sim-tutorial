@@ -63,9 +63,11 @@ In Fusion360, create a new sketch, and in Fusion360,
     - Start by creating a new sketch on the XY plane.
 
     - Select a rectangle on a workspace.
+    
     ![sketch](/png/png/1.png)
 
     - Draw a rectangle on a XY plane with dimension 300 x 300
+
     ![sketch plane](/png/png/2.png)
 
     - Finish this sketch and extrude it on 300mm
@@ -73,6 +75,7 @@ In Fusion360, create a new sketch, and in Fusion360,
     ![sketch plane](/png/png/3.png)
 
     - Select this model and right click on it. Create the component from this body and name it base_link
+
     ![base_link](/png/png/4.png)
 
     - Select on the top of this rectangle and create a new sketch. On this new sketch create new rectangel with dimension 245 x 30 as shown in this picture.
@@ -84,7 +87,7 @@ In Fusion360, create a new sketch, and in Fusion360,
     ![base_link](/png/png/6.png)
 
      -Extrude it on 300 mm
-     
+
     ![base_link](/png/png/7.png)
 
      -Create the sketch on a right side of this triangle
