@@ -69,15 +69,18 @@ In Fusion360, create a new sketch, and in Fusion360,
     ![sketch plane](/png/png/2.png)
 
     - Finish this sketch and extrude it on 300mm
+
     ![sketch plane](/png/png/3.png)
 
     - Select this model and right click on it. Create the component from this body and name it base_link
     ![base_link](/png/png/4.png)
 
     - Select on the top of this rectangle and create a new sketch. On this new sketch create new rectangel with dimension 245 x 30 as shown in this picture.
+
     ![base_link](/png/png/5.png)
 
      - Make same way in the left side.
+
     ![base_link](/png/png/6.png)
 
      -Extrude it on 300 mm
@@ -92,10 +95,10 @@ In Fusion360, create a new sketch, and in Fusion360,
     -Extrude this circle till it reach to the next rectangle. 
     ![base_link](/png/png/10.png)
 
-    Select this circle and choose the assembler. In this assembler select tangent plane
+    Select this circle and choose the construct. In this construct select tangent plane
     ![base_link](/png/png/11.png)
 
-    In this assembler select tangent plane
+    In this construct select tangent plane
     ![base_link](/png/png/12.png)
 
     When you selected this assembler. You can see a new plane which we gonna rotate to suitable degree. Rotate it to -45 degree
@@ -114,23 +117,58 @@ In Fusion360, create a new sketch, and in Fusion360,
     ![base_link](/png/png/17.png)
 
     Create on this sketch new rectangle 17x80 mm
+
     ![base_link](/png/png/18.png)
 
     Make a same way on left side of rectangle
+
     ![base_link](/png\png/19.png)
 
     Extrude it on 100 mm
+
     ![base_link](/png/png/20.png)
 
     Make sure that your rectangle combined with your cylinder to make dependencies.
+
     ![base_link](/png/png/21.png)
 
     Extrude to 20 mm
     ![base_link](/png/png/22.png)
 
     Let's create a new joint. Create a new sketch
+
     ![base_link](/png/png/23.png)
+
+    Draw the circle with Diameter 50 mm
+
+    ![base_link](/png/png/24.png)
+
+    Extrude this circle on 150 mm
+
+    ![base_link](/png/png/25.png)
     
+    Click on COnstruct and tangent plane
+
+    ![base_link](/png/png/26.png)
+        
+    Rotate this plane on -5 degree
+
+    ![base_link](/png/png/27.png)
+            
+    Click on create the sketch and draw the rectangle 30x110 mm.
+
+    ![base_link](/png/png/28.png)
+                
+    Extrude it to 400 mm
+
+    ![base_link](/png/png/29.png)
+                    
+    Locate to your base_link and right click on it. Select ground from parent
+
+    ![base_link](/png/png/30.png)
+
+2. ### Create the components for each
+
 2. ### Create Axles for wheel joints:
 
     - On the side face of the chassis, create a new sketch.
