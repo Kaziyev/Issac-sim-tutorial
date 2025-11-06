@@ -63,7 +63,7 @@ In Fusion360, create a new sketch, and in Fusion360,
     - Start by creating a new sketch on the XY plane.
 
     - Select a rectangle on a workspace.
-    ![sketch](/png\png/1.png)
+    ![sketch](/Isaac-sim-tutorial/png/1.png)
 
     - Draw a rectangle on a XY plane with dimension 300 x 300
     ![sketch plane](/png\png/2.png)
