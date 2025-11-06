@@ -76,7 +76,7 @@ In Fusion360, create a new sketch, and in Fusion360,
     - Select on the top of this rectangle and create a new sketch. On this new sketch create new rectangel with dimension 245 x 30 as shown in this picture.
     ![base_link](/png/png/5.png)
      - Make same way in the left side.
-    ![base_link](/png\png/6.png)
+    ![base_link](/png/png/6.png)
      -Extrude it on 300 mm
     ![base_link](/png/png/7.png)
      -Create the sketch on a right side of this triangle
