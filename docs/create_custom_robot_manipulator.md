@@ -213,9 +213,9 @@ In Fusion360, create a new sketch, and in Fusion360,
     - In the **Browser panel**, right-click on any component (e.g., `base_link`) and select **Physical Material**.  
     - In the **Physical Material window**, drag and drop materials from the library onto the robot’s parts:  
         - `base_link` → Metal (e.g., Aluminum or Steel)  
-        - links → steel (or ABS Plastic for rims)  
+        - `link_1, link_2` → steel (or ABS Plastic for rims)  
     - Repeat the process for all components until each has a defined material.  
-     - ![base_link](/png/png/45.png)
+     - ![base_link](/png/png/45.PNG)
 
 # Convert the design into **URDF format**
 
