@@ -229,7 +229,7 @@ Now, As the robot is ready, let's install the fusion2urdf add-in:
 
 3. In the dropdown, select **Download ZIP**
 
-![download add-in ]- ![base_link](/png/png/50.png)
+![download add-in ]- ![ready](/png/png/50.png)
 
 
 ### Install fusion2urdf Add-in
@@ -258,7 +258,7 @@ As you have installed the Fusion2URDF add-in:
 3. Choose the export directory where you want to save your URDF files.  
 4. Save the settings.  
 5. You should see a confirmation message indicating that the URDF was installed successfully.  
-![download add-in ](/isaac_sim/data/use_addin.png)
+![download add-in ](/png/png/52.png)
 
 ---
 # Prepare it for use in simulators such as **Isaac Sim** or **Gazebo**
