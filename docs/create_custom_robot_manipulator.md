@@ -107,7 +107,7 @@ In Fusion360, create a new sketch, and in Fusion360,
     ![base_link](/png/png/11.png)
 
     In this construct select tangent plane
-    
+
     ![base_link](/png/png/12.png)
 
     When you selected this assembler. You can see a new plane which we gonna rotate to suitable degree. Rotate it to -45 degree
@@ -178,102 +178,44 @@ In Fusion360, create a new sketch, and in Fusion360,
     Locate to your base_link and right click on it. Select ground from parent
 
     ![base_link](/png/png/30.png)
-
-2. ### Create the components for each
-
-2. ### Create Axles for wheel joints:
-
-    - On the side face of the chassis, create a new sketch.
-
-    - Draw a circle with a diameter of 10 mm.
-
-    - Use the Extrude tool to pull the circle outward by 5 mm. This creates a cylindrical axle for the wheel joint.
-
-    - Repeat the process on each corner of the chassis (you should have 4 axles in total).
-    ![Wheel joint sketch](/isaac_sim/data/base_link_with_joints.png)
-    ![Wheel joint sketch](/isaac_sim/data/base_link_up.png)
-
-3. ### Create the Wheels:
-    - Select the front face of one axle and create a new sketch on it.
-    - Draw a circle with a diameter of 80 mm. This will define the wheel’s outer edge.
-    - Use the Extrude tool to pull the circle outward by 20 mm.
-    ![Wheel sketch](/isaac_sim/data/add_wheel.png)
-    - In the Extrude settings, set the operation to New Body (not Join). This ensures the wheel is treated as a separate part, which is required for URDF export. Finish the sketch
-    - Repeat for remaining axles
-    ![Wheels and chassis](/isaac_sim/data/bodies.png)
-    - After finishing you should have 5 separate bodies in your design
-
-
-4. ### Add Lidar: To make easier to track robot heading 
-    - Select the top face of the chassis and create a new sketch.
-    - Draw a circle with a radius of 25 mm (diameter = 50 mm).
-    - Use the Extrude tool (E) to pull the circle upward by 20 mm.
-    ![Lidar and wheel stripes](/isaac_sim/data/add_all_wheels.png)
-
-5. ### Add Wheel Stripes: To track wheel rotation in simulation
-    - Select the outer face of one wheel and create a new sketch.
-    - Draw a thin box (for example: 6 mm wide × 10 mm tall × 3mm high) from the center of the wheel.
-    - Repeat this process for each wheel.
-    ![Lidar and wheel stripes](/isaac_sim/data/add_bars_to_wheels.png)
-
+                        
 6. ### Rename the Bodies
     - In the Browser panel (left-hand side of Fusion360), expand the Bodies folder.
 
-    - Right-click on each body and rename it to something meaningful.
+    - Right-click on each body and create components from body
     - In my case:
         ```
-        Body1 → base_link (the main chassis)
+        Body1 → base_link 
 
-        Body2 → front_wheel_right
+        Body2 → link_1
 
-        Body3 → front_wheel_left
-
-        Body4 → rear_wheel_right
-
-        Body5 → rear_wheel_left
+        Body3 → link_2
         ```
-7. ### Create Components from Bodies 
-    - Right-click on Bodies folder
-    - Select “Create Components from Bodies”.
-    ![components ](/isaac_sim/data/renamed_components.png)
-
-
-
 # Add revolute joints to robot
 
-1. ### Let's add revolute joints to each wheel, so that it was able to ratate
+1. ### Let's add revolute joints to each wheel, so that it was able to rotate
     - Press J on your keyboard to open the Joint tool. (English Keyboard).   Alternatively, you can access it from the Assemble → Joint menu.
 
-    - Define the Joint for a Wheel
+    - Define the Joint for a links
         ```
-        Select Component 1 → Click on the center (origin) of the wheel.
+        Select links_1 → Click on the center of cylinder 
 
-        Select Component 2 → Click on the origin of the corresponding axle (on the chassis).
-        ```
+        Select base_link → Click on the origin of the corresponding axle.
 
-    - In the Joint Type options, select Revolute.
-    ![add revolute joints ](/isaac_sim/data/how_add_rev_joint.gif)
+    - ![base_link](/png/png/32.png)
 
-    -  Repeat for All Wheels
+    - ![base_link](/png/png/33.png)
+
+    -  Repeat for All links
 
 
 2. ### Assign Materials to the Robot
     - In the **Browser panel**, right-click on any component (e.g., `base_link`) and select **Physical Material**.  
     - In the **Physical Material window**, drag and drop materials from the library onto the robot’s parts:  
         - `base_link` → Metal (e.g., Aluminum or Steel)  
-        - Wheels → Rubber (or ABS Plastic for rims)  
+        - links → steel (or ABS Plastic for rims)  
     - Repeat the process for all components until each has a defined material.  
-     ![add materials ](/isaac_sim/data/add_materials.png)
-
-
-
-## We have finished Modeling the Robot
-
-![overall model ](/isaac_sim/data/progress_video-custom_robot.gif)
-
-
----
-
+     - ![base_link](/png/png/45.png)
 
 # Convert the design into **URDF format**
 
@@ -287,7 +229,7 @@ Now, As the robot is ready, let's install the fusion2urdf add-in:
 
 3. In the dropdown, select **Download ZIP**
 
-![download add-in ](/isaac_sim/data/download_addin.png)
+![download add-in ]- ![base_link](/png/png/50.png)
 
 
 ### Install fusion2urdf Add-in
