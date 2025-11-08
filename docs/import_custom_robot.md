@@ -15,6 +15,7 @@ Before importing the model, modify the following parameters:
 - In the Table:
  - Target: Velocity (Mobile Robot), Position (Manipulator)
 
+![sketch](/png/png/Isaac_1.png)
 
 As you have modified the settings based on the type of your robot,
 Import the Model
