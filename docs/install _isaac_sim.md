@@ -14,7 +14,7 @@ Before installing Isaac Sim, it is important to ensure your computer meets the m
 
 To verify compatibility, you can use the **Isaac Sim Compatibility Checker** provided by NVIDIA. 
 
-![Robot chassis sketch](/isaac_sim/data/install_isaac_sim//compatability_checker.png)
+![Robot chassis sketch](![Isaac_sim](/png/install_isaac_sim/compatability_check.png))
 
 You can download and run the compatibility checker from the following link:  
 [https://docs.isaacsim.omniverse.nvidia.com/5.0.0/installation/install_workstation.html#isaac-sim-compatibility-checker](https://docs.isaacsim.omniverse.nvidia.com/5.0.0/installation/install_workstation.html#isaac-sim-compatibility-checker)
