@@ -63,3 +63,18 @@ Here, the JointCommandArray node is selected — it is responsible for sending p
 To simulate your manipulator click on a Run button then give any value to your joints 
 
 ![Isaac_sim](/png/png/Isaac_9.png)
+
+---
+
+## 🎉 Congratulations!
+
+
+You’ve successfully completed your first **simulation of the robot manipulator** in **Isaac Sim**.  
+By following this guide, you created the model, configured its joints, and controlled it through the **JointCommandArray** graph.  
+
+This milestone marks the beginning of your journey into digital robotics — from here, you can:
+- Experiment with motion planning and trajectory control  
+- Integrate sensors and feedback systems  
+- Connect your simulation to **ROS 2** for real-time control  
+
+Keep exploring, testing, and improving — every simulation brings your project closer to a fully functional robotic system. 🚀
