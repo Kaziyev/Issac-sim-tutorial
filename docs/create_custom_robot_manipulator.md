@@ -64,120 +64,120 @@ In Fusion360, create a new sketch, and in Fusion360,
 
     - Select a rectangle on a workspace.
 
-    ![sketch](/png/png/1.png)
+    ![sketch](/png/modeling_simulating/1.png)
 
     - Draw a rectangle on a XY plane with dimension 300 x 300
 
-    ![sketch plane](/png/png/2.png)
+    ![sketch plane](/png/modeling_simulating/2.png)
 
     - Finish this sketch and extrude it on 300mm
 
-    ![sketch plane](/png/png/3.png)
+    ![sketch plane](/png/modeling_simulating/3.png)
 
     - Select this model and right click on it. Create the component from this body and name it base_link
 
-    ![base_link](/png/png/4.png)
+    ![base_link](/png/modeling_simulating/4.png)
 
     - Select on the top of this rectangle and create a new sketch. On this new sketch create new rectangel with dimension 245 x 30 as shown in this picture.
 
-    ![base_link](/png/png/5.png)
+    ![base_link](/png/modeling_simulating/5.png)
 
      - Make same way in the left side.
 
-    ![base_link](/png/png/6.png)
+    ![base_link](/png/modeling_simulating/6.png)
 
      -Extrude it on 300 mm
 
-    ![base_link](/png/png/7.png)
+    ![base_link](/png/modeling_simulating/7.png)
 
      -Create the sketch on a right side of this triangle
 
-    ![base_link](/png/png/8.png)
+    ![base_link](/png/modeling_simulating/8.png)
 
     -Draw the circle with diameter 140 mm. 
 
-    ![base_link](/png/png/9.png)
+    ![base_link](/png/modeling_simulating/9.png)
 
     -Extrude this circle till it reach to the next rectangle. 
 
-    ![base_link](/png/png/10.png)
+    ![base_link](/png/modeling_simulating/10.png)
 
     Select this circle and choose the construct. In this construct select tangent plane
 
-    ![base_link](/png/png/11.png)
+    ![base_link](/png/modeling_simulating/11.png)
 
     In this construct select tangent plane
 
-    ![base_link](/png/png/12.png)
+    ![base_link](/png/modeling_simulating/12.png)
 
     When you selected this assembler. You can see a new plane which we gonna rotate to suitable degree. Rotate it to -45 degree
 
-    ![base_link](/png/png/13.png)
+    ![base_link](/png/modeling_simulating/13.png)
 
     Select this plane and create a new sketch
 
-    ![base_link](/png/png/14.png)
+    ![base_link](/png/modeling_simulating/14.png)
 
     Create the new rectangle 100x180
 
-    ![base_link](/png/png/15.png)
+    ![base_link](/png/modeling_simulating/15.png)
 
     Extrude it on 600 mm
-    ![base_link](/png/png/16.png)
+    ![base_link](/png/modeling_simulating/16.png)
 
     Select the top of this rectangle and create new sketch
-    ![base_link](/png/png/17.png)
+    ![base_link](/png/modeling_simulating/17.png)
 
     Create on this sketch new rectangle 17x80 mm
 
-    ![base_link](/png/png/18.png)
+    ![base_link](/png/modeling_simulating/18.png)
 
     Make a same way on left side of rectangle
 
-    ![robot](/png/png/19.png)
+    ![robot](/png/modeling_simulating/19.png)
 
     Extrude it on 100 mm
 
-    ![extrusion](/png/png/20.png)
+    ![extrusion](/png/modeling_simulating/20.png)
 
     Make sure that your rectangle combined with your cylinder to make dependencies.
 
-    ![base_link](/png/png/21.png)
+    ![base_link](/png/modeling_simulating/21.png)
 
     Extrude to 20 mm
-    ![base_link](/png/png/22.png)
+    ![base_link](/png/modeling_simulating/22.png)
 
     Let's create a new joint. Create a new sketch
 
-    ![base_link](/png/png/23.png)
+    ![base_link](/png/modeling_simulating/23.png)
 
     Draw the circle with Diameter 50 mm
 
-    ![base_link](/png/png/24.png)
+    ![base_link](/png/modeling_simulating/24.png)
 
     Extrude this circle on 150 mm
 
-    ![base_link](/png/png/25.png)
+    ![base_link](/png/modeling_simulating/25.png)
     
     Click on COnstruct and tangent plane
 
-    ![base_link](/png/png/26.png)
+    ![base_link](/png/modeling_simulating/26.png)
         
     Rotate this plane on -5 degree
 
-    ![base_link](/png/png/27.png)
+    ![base_link](/png/modeling_simulating/27.png)
             
     Click on create the sketch and draw the rectangle 30x110 mm.
 
-    ![base_link](/png/png/28.png)
+    ![base_link](/png/modeling_simulating/28.png)
                 
     Extrude it to 400 mm
 
-    ![base_link](/png/png/29.png)
+    ![base_link](/png/modeling_simulating/29.png)
                     
     Locate to your base_link and right click on it. Select ground from parent
 
-    ![base_link](/png/png/30.png)
+    ![base_link](/png/modeling_simulating/30.png)
                         
 6. ### Rename the Bodies
     - In the Browser panel (left-hand side of Fusion360), expand the Bodies folder.
@@ -202,9 +202,9 @@ In Fusion360, create a new sketch, and in Fusion360,
 
         Select base_link → Click on the origin of the corresponding axle.
 
-    - ![base_link](/png/png/32.png)
+    - ![base_link](/png/modeling_simulating/32.png)
 
-    - ![base_link](/png/png/33.png)
+    - ![base_link](/png/modeling_simulating/33.png)
 
     -  Repeat for All links
 
@@ -229,7 +229,7 @@ Now, As the robot is ready, let's install the fusion2urdf add-in:
 
 3. In the dropdown, select **Download ZIP**
 
-![download add-in ]- ![ready](/png/png/50.png)
+![download add-in ]- ![ready](/png/modeling_simulating/50.png)
 
 
 ### Install fusion2urdf Add-in
@@ -258,7 +258,7 @@ As you have installed the Fusion2URDF add-in:
 3. Choose the export directory where you want to save your URDF files.  
 4. Save the settings.  
 5. You should see a confirmation message indicating that the URDF was installed successfully.  
-![download add-in ](/png/png/52.png)
+![download add-in ](/png/modeling_simulating/52.png)
 
 ---
 # Prepare it for use in simulators such as **Isaac Sim** or **Gazebo**

@@ -14,7 +14,7 @@ Before installing Isaac Sim, it is important to ensure your computer meets the m
 
 To verify compatibility, you can use the **Isaac Sim Compatibility Checker** provided by NVIDIA. 
 
-![Robot chassis sketch](![Isaac_sim](/png/install_isaac_sim/compatability_checker.png))
+![Robot chassis sketch](/png/install_isaac_sim/compatability_checker.png)
 
 You can download and run the compatibility checker from the following link:  
 [https://docs.isaacsim.omniverse.nvidia.com/5.0.0/installation/install_workstation.html#isaac-sim-compatibility-checker](https://docs.isaacsim.omniverse.nvidia.com/5.0.0/installation/install_workstation.html#isaac-sim-compatibility-checker)
@@ -47,7 +47,7 @@ By the end of this guide, you will have a fully operational Isaac Sim environmen
 
         [https://docs.isaacsim.omniverse.nvidia.com/5.0.0/installation/download.html](https://docs.isaacsim.omniverse.nvidia.com/5.0.0/installation/download.html)
 
-        ![Install Isaac Sim](/isaac_sim/data/install_isaac_sim/isaac_sim_lv_install.png)
+        ![Install Isaac Sim](/png/install_isaac_sim/isaac_sim_lv_install.png)
 
 
 2. ### Install Isaac Sim:
@@ -82,7 +82,7 @@ By the end of this guide, you will have a fully operational Isaac Sim environmen
 
         [https://docs.isaacsim.omniverse.nvidia.com/5.0.0/installation/download.html](https://docs.isaacsim.omniverse.nvidia.com/5.0.0/installation/download.html)
 
-        ![Install Isaac Sim](/isaac_sim/data/install_isaac_sim/isaac_sim_lv_install.png)
+        ![Install Isaac Sim](/png/install_isaac_sim/isaac_sim_lv_install.png)
 
 
 2. ### Install Isaac Sim:
@@ -140,16 +140,16 @@ Now that you have successfully installed Isaac Sim, let’s run an example using
 
 * First of all, open Isaac Sim according to your Operation System, if you haven't already.
         <br><br>
-         ![start-isaac-sim](/isaac_sim/data/install_isaac_sim/start_isaac_sim.png)
+         ![start-isaac-sim](/png/install_isaac_sim/start_isaac_sim.png)
     <br><br>
     > **Note:** The first time you launch Isaac Sim and run the example robot, it may take longer to start. You might see a message saying "Isaac Sim is not responding." Please be patient and avoid clicking anything - this should resolve itself after a short while.
-        ![start-isaac-sim](/isaac_sim/data/install_isaac_sim/wait_isaac_sim.png)
+        ![start-isaac-sim](/png/install_isaac_sim/wait_isaac_sim.png)
 
 
 ## Overview of Isaac Sim
 If the app was launched successfully, you should see the following:
 
-![isaac-sim-overview](/isaac_sim/data/install_isaac_sim/isaac_sim_overview.png)
+![isaac-sim-overview](/png/install_isaac_sim/isaac_sim_overview.png)
 
 > You can learn more about Isaac Sim and how to use it by visiting the official documentation: https://docs.isaacsim.omniverse.nvidia.com/5.0.0/introduction/quickstart_isaacsim.html 
 
@@ -164,7 +164,7 @@ To use example robots and environments from the Isaac Sim library:
 
 2. A panel titled **Isaac Sim Assets [Beta] - Terminal** will appear at the bottom of the screen.
 
-![library-assets](/isaac_sim/data/install_isaac_sim/import_library.png)
+![library-assets](/png/install_isaac_sim/import_library.png)
 
 This asset browser gives you access to a rich library of pre-built content including:
 
@@ -185,11 +185,11 @@ This asset browser gives you access to a rich library of pre-built content inclu
 
 4. Then click the **"Load as Reference"** button.
 
-![imoprt-env](/isaac_sim/data/install_isaac_sim/import_env.png)
+![imoprt-env](/png/install_isaac_sim/import_env.png)
 
 5. After environment was loaded, you might see a blurry image of the environment. 
     - Navigate to Top-Left panel, and change from `RTX-Real-Time` to `RTX-Interactive (Path Tracing)`
-![imoprt-env](/isaac_sim/data/install_isaac_sim/resolve_blurry_image.png)
+![imoprt-env](/png/install_isaac_sim/resolve_blurry_image.png)
 
 
 
@@ -202,59 +202,47 @@ This asset browser gives you access to a rich library of pre-built content inclu
 
 3. Then click the **"Load as Reference"** button.
 
-![imoprt-env](/isaac_sim/data/install_isaac_sim/load_robot.png)
+![imoprt-env](/png/install_isaac_sim/load_robot.png)
 
 
 ### 4. Teleoperating the Robot with Keyboard
 
 Now, as we have the robot loaded, let's operate it using keyboard
 
-![imoprt-env](/isaac_sim/data/install_isaac_sim/robot_preview.png)
+![imoprt-env](/png/install_isaac_sim/robot_preview.png)
 ---
 1. First of all, if the robot has a camera fixed to it, hide it by
     - click on the camera
     - on the right panel, a tree of robot will expand
     - clock on the `eye` sign besides the `jetbot_camera`
-    ![imoprt-env](/isaac_sim/data/install_isaac_sim/hide-camera.png)
+    ![imoprt-env](/png/install_isaac_sim/hide-camera.png)
     - now, the camera should be invisible.
-    ![imoprt-env](/isaac_sim/data/install_isaac_sim/robot_preview_wt_camera.png)
+    ![imoprt-env](/png/install_isaac_sim/robot_preview_wt_camera.png)
 
 
----
-2. Let's run the simulation
-    - Click and drag the directional arrows to move the robot along the X, Y, or Z axes.
-    ![imoprt-env](/isaac_sim/data/install_isaac_sim/transform_robot.gif)
-    - Position the robot above the ground.
-    - Click `Play` Simulation to see the robot fall.
-    - Click `Stop` Simulation to end the simulation.
-
----
-
-3. Add Differential-Drive Controller:
+2. Add Differential-Drive Controller:
     - On the **top-left toolbar**, go to `Tools` → `Robotics` → `OmniGraph Controllers` → click on `Differential Controller`.
-    ![imoprt-env](/isaac_sim/data/install_isaac_sim/add_diff_controller.png)
+    ![imoprt-env](/png/install_isaac_sim/add_diff_controller.png)
     - As `Robot Prim`: `jetbot` (or your custom robot)
     - `wheel radius`: 0.05 (in meters)
     - `distance between wheels`: 0.1 (in meters)
     - Tick `Use Keyboard Control (WASD)`: ticked
     - Click `OK`
-    ![imoprt-env](/isaac_sim/data/install_isaac_sim/robot_diff_controller_graph.png)
+    ![imoprt-env](/png/install_isaac_sim/robot_diff_controller_graph.png)
 
     - Now you can see a `differential_controller` graph appear in `Graphs` folder
     - Open the graph to view. Right click on `differential_controller`, choose `Open Graph`
-     ![imoprt-env](/isaac_sim/data/install_isaac_sim/view_graph.png)
+     ![imoprt-env](/png/install_isaac_sim/view_graph.png)
     - Now you can view the graph that was created to control the robot using keyboard inputs.
 
 ---
 
-4. Controlling Robot with Keyboard
+3. Controlling Robot with Keyboard
 
     Now you are ready to start operating your robot with keyboard. For this:
     - Click `Play` Simulation see the robot fall.
     - Use `W, A, S, D` Keys in Keyboard to control the robot.
     - When you have finished, click `Stop` Simulation to end the simulation.
-
-    ![imoprt-env](/isaac_sim/data/install_isaac_sim/move_robot.gif)
 
 ---
 
