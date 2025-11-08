@@ -215,7 +215,7 @@ In Fusion360, create a new sketch, and in Fusion360,
         - `base_link` → Metal (e.g., Aluminum or Steel)  
         - `link_1, link_2` → steel (or ABS Plastic for rims)  
     - Repeat the process for all components until each has a defined material.  
-     - ![base_link](/png/png/45.PNG)
+     - ![base_link](/png/modeling_simulating/45.PNG)
 
 # Convert the design into **URDF format**
 
